@@ -1,33 +1,44 @@
 :root {
-  /* declare a variable with `--` syntax */
+  /* Colour Variables */
   --dark: #290458;
   --light: rgb(211, 209, 209);
   --navlink-active: #910e7b;
-  --text-hover: #8d4ac5;
+  --text-hover: #a1156c;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
 
-.navbar {
+.header {
   display: flex;
-  justify-content: space-between;
-  height: 100px;
-  align-items: center;
-  width: 100vw;
+  height: 150px;
+  width: 100%;
   position: fixed;
-  top: 0;
-  padding: 0 50px 0 50px;
+  background-image: url(../../../public/header.gif);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.nav-container {
-  width: 400px;
-  display: flex;
+.nav-header-container {
   align-items: center;
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+}
+
+h1 {
+  color: var(--light);
+  font-size: 3em;
+}
+.nav-container {
+  display: flex;
   gap: 30px;
   text-align: center;
-  font-size: 16px;
+  font-size: 2em;
 }
 
 .nav-container > a {
@@ -38,6 +49,7 @@
 
 .nav-container > a:hover {
   color: var(--text-hover);
+  border-bottom: 1px solid var(--text-hover);
 }
 
 .nav-container .active {

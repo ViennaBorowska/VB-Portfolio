@@ -1,20 +1,28 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Navbarstyles from "./Navbar.css";
+import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <nav className="nav-bar">
-      <div className="nav-container">
-        <NavLink to="/about" activeclassname="active">
-          About
-        </NavLink>
-        <NavLink to="/portfolio" activeclassname="active">
-          Projects
-        </NavLink>
-        <NavLink to="/contact" activeclassname="active">
-          Contact
-        </NavLink>
+    <nav className="header">
+      <div className="nav-header-container">
+        <div className="header-title">
+          <h1>Vienna B</h1>
+        </div>
+        <div className="nav-container">
+          <NavLink to="/about" activeclassname="active">
+            About
+          </NavLink>
+          <NavLink to="/portfolio" activeclassname="active">
+            Projects
+          </NavLink>
+          <NavLink to="/contact" activeclassname="active">
+            Contact
+          </NavLink>
+          <NavLink to="/cv" activeclassname="active">
+            CV
+          </NavLink>
+        </div>
       </div>
     </nav>
   );
