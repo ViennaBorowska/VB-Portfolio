@@ -6,9 +6,8 @@ export default function Navbar() {
   return (
     <nav className="header">
       <div className="nav-header-container">
-        <div className="header-title">
-          <h1>Vienna B</h1>
-        </div>
+        <h1>Vienna B</h1>
+
         <div className="nav-container">
           <NavLink to="/about" activeclassname="active">
             About

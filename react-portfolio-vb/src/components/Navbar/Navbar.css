@@ -27,18 +27,19 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  padding: 20px;
+  padding: 0 10px 0 10px;
 }
 
 h1 {
   color: var(--light);
-  font-size: 3em;
+  font-size: 5vw;
+  margin: 0;
 }
 .nav-container {
   display: flex;
-  gap: 30px;
+  gap: 50px;
   text-align: center;
-  font-size: 2em;
+  font-size: 3vw;
 }
 
 .nav-container > a {
@@ -54,4 +55,13 @@ h1 {
 
 .nav-container .active {
   color: var(--navlink-active);
+}
+
+/*Responsive Queries*/
+@media screen and (max-width: 768px) {
+  .nav-header-container {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 4vw;
+  }
 }
