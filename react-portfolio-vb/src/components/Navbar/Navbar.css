@@ -12,8 +12,7 @@
 .header {
   display: flex;
   height: 150px;
-  width: 100%;
-  position: fixed;
+  width: auto;
   background-image: url(../../../public/header.gif);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -26,8 +25,8 @@
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
-  padding: 0 10px 0 10px;
+  width: 100vw;
+  padding: 10px;
 }
 
 h1 {
