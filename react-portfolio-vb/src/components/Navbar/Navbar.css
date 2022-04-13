@@ -1,0 +1,45 @@
+:root {
+  /* declare a variable with `--` syntax */
+  --dark: #290458;
+  --light: rgb(211, 209, 209);
+  --navlink-active: #910e7b;
+  --text-hover: #8d4ac5;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  padding: 0 50px 0 50px;
+}
+
+.nav-container {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.nav-container > a {
+  color: var(--light);
+  transition: 0.15s ease-in-out;
+  text-decoration: none;
+}
+
+.nav-container > a:hover {
+  color: var(--text-hover);
+}
+
+.nav-container .active {
+  color: var(--navlink-active);
+}
