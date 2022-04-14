@@ -1,7 +1,7 @@
 [
   {
     "name": "Instagrub",
-    "image": "./assets/instagrub.jpg",
+    "image": "/assets/instagrub.jpg",
     "description": "A social media recipe sharing app built for food enthusiasts.",
     "github": "https://github.com/ViennaBorowska/Instagrub",
     "deployment": "https://instagrub2022.herokuapp.com/",
@@ -9,7 +9,7 @@
   },
   {
     "name": "Find My Football",
-    "image": "./assets/fmf.gif",
+    "image": "/assets/fmf.gif",
     "description": "A one-stop shop for international football league details and stadium locations with directions.",
     "github": "https://github.com/ViennaBorowska/FindMyFootballApp",
     "deployment": "https://viennaborowska.github.io/FindMyFootballApp/",
@@ -17,7 +17,7 @@
   },
   {
     "name": "Weather Dashbord",
-    "image": "./assets/weather.jpg",
+    "image": "/assets/weather.jpg",
     "description": "A global weather dashboard using the Open Weather API.",
     "github": "https://github.com/ViennaBorowska/Weather-Dashboard",
     "deployment": "https://viennaborowska.github.io/Weather-Dashboard/",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Text Editor",
-    "image": "./assets/text-editor.jpg",
+    "image": "/assets/text-editor.jpg",
     "description": "A downloadable PWA text editor that runs in the browser and also functions offline",
     "github": "https://github.com/ViennaBorowska/Text-Editor-PWA",
     "deployment": "https://safe-everglades-38405.herokuapp.com/",
@@ -33,14 +33,14 @@
   },
   {
     "name": "Team Roster Generator",
-    "image": "./assets/team-roster.gif",
+    "image": "/assets/team-roster.gif",
     "description": "Map out your team or company with professional cards for each role with this simple Node application.",
     "github": "https://github.com/ViennaBorowska/Team-Roster-Generator",
     "tech": "Node.js, JavaScript, HTML, CSS"
   },
   {
     "name": "Employee Tracker",
-    "image": "./assets/employee.gif",
+    "image": "/assets/employee.gif",
     "description": "Manage your employee database with this CLI.",
     "github": "https://github.com/ViennaBorowska/Employee-Tracker-CMS",
     "tech": "Node.js, MySQL, JavaScript"

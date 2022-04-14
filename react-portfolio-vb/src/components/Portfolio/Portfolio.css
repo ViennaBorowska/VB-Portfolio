@@ -1,0 +1,40 @@
+.card-flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.card-flex-item {
+  justify-content: center;
+  padding-top: 15px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  background-color: var(--my-black);
+}
+
+@media screen and (max-width: 768px) {
+  .card-flex {
+    justify-content: center;
+  }
+  .card-flex-item {
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+}

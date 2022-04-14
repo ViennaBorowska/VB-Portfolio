@@ -5,12 +5,16 @@
   display: -o-flex;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  background-color: #ffffcc;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  color: var(--light);
   border-radius: 5px;
-  margin-bottom: 1em;
+  margin-bottom: 15px;
   margin-right: 0;
   padding: 1em;
+  border: 2px solid var(--navlink-active);
+  padding: 5px;
 }
 
 .card-flex-image img {
@@ -19,11 +23,21 @@
 
 .card-flex-wrapper:hover {
   cursor: pointer;
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 20px 0px;
+  background-color: var(--navlink-active);
+  opacity: 50%;
 }
 
 .card-flex-wrapper:hover .card-flex-image img {
   opacity: 1;
   transition: opacity 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+}
+
+.icon-holder a {
+  padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .card-flex-wrapper {
+    width: 90%;
+  }
 }

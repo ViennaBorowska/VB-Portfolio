@@ -33,9 +33,6 @@ function Card(props) {
           )}
         </div>
         <p className="tech-holder">{props.tech}</p>
-        <a href={props.url} className="card-flex-button btn-block">
-          Button
-        </a>
       </div>
     </article>
   );
