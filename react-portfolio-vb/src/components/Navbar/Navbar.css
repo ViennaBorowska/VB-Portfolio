@@ -49,11 +49,11 @@ h1 {
 
 .nav-container > a:hover {
   color: var(--text-hover);
-  border-bottom: 1px solid var(--text-hover);
 }
 
 .nav-container .active {
   color: var(--navlink-active);
+  border-bottom: 1px solid var(--text-hover);
 }
 
 /*Responsive Queries*/

@@ -34,7 +34,7 @@ export default function About() {
         <div className="skills-holder">
           <p>
             <FontAwesomeIcon icon={faHtml5} />
-            HTML5{" "}
+            HTML5
           </p>
           <p className="skills">
             <FontAwesomeIcon icon={faCss3} />

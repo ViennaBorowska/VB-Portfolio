@@ -1,0 +1,38 @@
+:root {
+  /* Colour Variables */
+  --dark: #290458;
+  --light: rgb(211, 209, 209);
+  --navlink-active: #910e7b;
+  --text-hover: #a1156c;
+  --my-black: #000000;
+}
+
+.footer-container {
+  background-color: var(--my-black);
+  height: 100px;
+  color: var(--light);
+}
+
+.footer-link-holder {
+  text-align: center;
+}
+
+.footer-link-holder a {
+  padding: 10px;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: var(--light);
+  transition: 0.15s ease-in-out;
+  height: 5px;
+  width: 5px;
+}
+
+.footer-links:hover {
+  color: var(--navlink-active);
+}
+
+.rights {
+  text-align: center;
+}
