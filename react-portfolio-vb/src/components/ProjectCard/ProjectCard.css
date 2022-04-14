@@ -1,0 +1,29 @@
+.card-flex-wrapper {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #ffffcc;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  margin-right: 0;
+  padding: 1em;
+}
+
+.card-flex-image img {
+  opacity: 1;
+}
+
+.card-flex-wrapper:hover {
+  cursor: pointer;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 20px 0px;
+}
+
+.card-flex-wrapper:hover .card-flex-image img {
+  opacity: 1;
+  transition: opacity 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+}
