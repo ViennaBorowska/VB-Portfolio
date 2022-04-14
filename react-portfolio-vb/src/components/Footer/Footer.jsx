@@ -13,19 +13,25 @@ function Footer() {
           <div className="footer-link-holder">
             <a
               className="footer-links fa-2x"
-              href="https://www.https://github.com/ViennaBorowska"
+              href="https://www.github.com/ViennaBorowska"
+              target="_blank"
+              rel="noreferrer"
             >
               <FontAwesomeIcon icon={faGithub} />
             </a>
             <a
               className="footer-links fa-2x"
               href="https://www.linkedin.com/in/vienna-b-108b04229/"
+              target="_blank"
+              rel="noreferrer"
             >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <a
               className="footer-links fa-2x"
-              href="https://mailto:viennabdev@gmail.com"
+              href="mailto:viennabdev@gmail.com"
+              target="_blank"
+              rel="noreferrer"
             >
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
