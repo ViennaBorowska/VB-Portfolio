@@ -15,11 +15,10 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL + "/"}>
-        {/* <Redirect to="/about" /> */}
+      <Router>
         <Navbar />
         <Routes>
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/cv" element={<Cv />} />

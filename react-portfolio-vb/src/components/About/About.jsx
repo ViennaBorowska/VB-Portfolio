@@ -30,7 +30,7 @@ export default function About() {
             accessible, responsive designs.
           </p>
         </div>
-        <h2 className="skills-title">My Skills</h2>
+        <h2 className="skills-title">Key Skills</h2>
         <div className="skills-holder">
           <p>
             <FontAwesomeIcon icon={faHtml5} />

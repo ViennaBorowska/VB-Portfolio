@@ -16,7 +16,12 @@ function Card(props) {
         <h3>{props.name}</h3>
         <p>{props.description}</p>
         <div className="icon-holder">
-          <a href={props.github} target="_blank" className="card-github">
+          <a
+            href={props.github}
+            target="_blank"
+            rel="noreferrer"
+            className="card-github"
+          >
             <FontAwesomeIcon icon={faGithub} />
           </a>
 
@@ -24,6 +29,7 @@ function Card(props) {
             <a
               href={props.deployment}
               target="_blank"
+              rel="noreferrer"
               className="card-deployment"
             >
               <FontAwesomeIcon icon={faArrowUpRightFromSquare} />

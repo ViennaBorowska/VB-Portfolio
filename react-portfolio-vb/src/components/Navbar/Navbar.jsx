@@ -6,10 +6,12 @@ export default function Navbar() {
   return (
     <nav className="header">
       <div className="nav-header-container">
-        <h1>Vienna B</h1>
+        <NavLink to="/" className="header-title" activeclassname="active">
+          <h1>Vienna B</h1>
+        </NavLink>
 
         <div className="nav-container">
-          <NavLink to="/about" activeclassname="active">
+          <NavLink to="/" activeclassname="active">
             About
           </NavLink>
           <NavLink to="/portfolio" activeclassname="active">
