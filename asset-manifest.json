@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/ViennaBorowska/VB-Portfolio/static/css/main.4ba0408c.css",
-    "main.js": "/ViennaBorowska/VB-Portfolio/static/js/main.96dc83f6.js",
-    "static/media/header.gif": "/ViennaBorowska/VB-Portfolio/static/media/header.c0708f41c32fca85dcd8.gif",
-    "static/media/cv-preview.jpg": "/ViennaBorowska/VB-Portfolio/static/media/cv-preview.5906bd7243aa3d01b39e.jpg",
-    "static/media/VB-Dev-CV-2022.pdf": "/ViennaBorowska/VB-Portfolio/static/media/VB-Dev-CV-2022.c378de8496d60ddd333f.pdf",
-    "index.html": "/ViennaBorowska/VB-Portfolio/index.html",
-    "main.4ba0408c.css.map": "/ViennaBorowska/VB-Portfolio/static/css/main.4ba0408c.css.map",
-    "main.96dc83f6.js.map": "/ViennaBorowska/VB-Portfolio/static/js/main.96dc83f6.js.map"
+    "main.css": "/static/css/main.4e4e017e.css",
+    "main.js": "/static/js/main.4949e541.js",
+    "static/media/header.gif": "/static/media/header.c0708f41c32fca85dcd8.gif",
+    "static/media/cv-preview.jpg": "/static/media/cv-preview.5906bd7243aa3d01b39e.jpg",
+    "static/media/profile.jpg": "/static/media/profile.f6e5fed23ef562a523fd.jpg",
+    "static/media/VB-Dev-CV-2022.pdf": "/static/media/VB-Dev-CV-2022.c378de8496d60ddd333f.pdf",
+    "index.html": "/index.html",
+    "main.4e4e017e.css.map": "/static/css/main.4e4e017e.css.map",
+    "main.4949e541.js.map": "/static/js/main.4949e541.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ba0408c.css",
-    "static/js/main.96dc83f6.js"
+    "static/css/main.4e4e017e.css",
+    "static/js/main.4949e541.js"
   ]
 }
