@@ -9,12 +9,14 @@ import {
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 
+import profilePic from "./profile.jpg";
+
 export default function About() {
   return (
     <section className="about-container">
       <div className="about-holder">
         <div className="about-top">
-          <img src="profile.jpg" alt="Profile picture"></img>
+          <img src={profilePic} alt="Profile picture"></img>
 
           <p className="about-me">
             Hi there, I'm a junior fullstack developer based in Manchester, NW
@@ -30,25 +32,25 @@ export default function About() {
             accessible, responsive designs.
           </p>
         </div>
-        <h2 className="skills-title">Key Skills</h2>
-        <div className="skills-holder">
+        <h2 className="key-skills-title">Key Skills</h2>
+        <div className="key-skills-list">
           <p>
             <FontAwesomeIcon icon={faHtml5} />
             HTML5
           </p>
-          <p className="skills">
+          <p className="key-skills">
             <FontAwesomeIcon icon={faCss3} />
             CSS
           </p>
-          <p className="skills">
+          <p className="key-skills">
             <FontAwesomeIcon icon={faJsSquare} />
             Javascript
           </p>
-          <p className="skills">
+          <p className="key-skills">
             <FontAwesomeIcon icon={faNodeJs} />
             Node
           </p>
-          <p className="skills">
+          <p className="key-skills">
             <FontAwesomeIcon icon={faReact} />
             React
           </p>

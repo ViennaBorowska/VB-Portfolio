@@ -17,6 +17,7 @@ export default function Portfolio() {
               github={card.github}
               deployment={card.deployment}
               tech={card.tech}
+              image={card.image}
             />
           );
         })}

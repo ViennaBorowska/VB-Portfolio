@@ -10,11 +10,12 @@ function Card(props) {
   return (
     <article className="card-flex-wrapper">
       <div className="card-flex-image">
-        <img src={props.image} alt="img placeholder" />
+        <img src={process.env.PUBLIC_URL + props.image} alt="img placeholder" />
       </div>
       <div className="card-flex-content">
         <h3>{props.name}</h3>
-        <p>{props.description}</p>
+        <p>cd ..
+        </p>
         <div className="icon-holder">
           <a
             href={props.github}

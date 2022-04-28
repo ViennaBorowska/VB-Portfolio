@@ -45,7 +45,7 @@ img {
   color: var(--light);
 }
 
-.skills-holder {
+.key-skills-list {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -54,22 +54,21 @@ img {
   justify-content: space-around;
 }
 
-.skills-holder p {
+.key-skills-list p {
   padding-top: 5px;
-
   font-size: 1.2vw;
   display: flex;
   gap: 10px;
   color: var(--navlink-active);
 }
-.skills-title {
+.key-skills-title {
   color: var(--navlink-active);
   font-size: 2vw;
   width: 80%;
   text-align: center;
 }
 
-.skills {
+.key-skills {
   padding-left: 20px;
 }
 
@@ -111,12 +110,12 @@ img {
   .about-me {
     padding-top: 0;
   }
-  .skills {
+  .key-skills {
     font-size: 3vw;
     padding: 0;
   }
 
-  .skills-holder {
+  .key-skills-list {
     flex-direction: column;
   }
 }
