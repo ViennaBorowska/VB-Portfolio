@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio-vb",
   "version": "0.1.0",
-  "homepage": "/",
+  "homepage": "http://viennaborowska.github.io/VB-Portfolio/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
