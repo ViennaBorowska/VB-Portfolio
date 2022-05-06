@@ -43,7 +43,11 @@ function Contact() {
       <section className="form-header">
         <h1>Send Me A Message</h1>
       </section>
-      <form className="contact-form">
+      <form
+        className="contact-form"
+        action="mailto:viennabdev@gmail.com"
+        method="post"
+      >
         <label name="name" className="input-title">
           Name
         </label>

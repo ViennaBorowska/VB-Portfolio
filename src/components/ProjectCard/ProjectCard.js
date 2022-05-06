@@ -8,12 +8,28 @@ function Card(props) {
   const isDeployed = props.deployment;
   return (
     <article className="card-flex-wrapper">
-      <div className="card-flex-image">
-        <img src={process.env.PUBLIC_URL + props.image} alt="img placeholder" />
+      <div className="project-card-flex-image">
+        {isDeployed ? (
+          <a href={props.deployment} target="_blank" rel="noreferrer">
+            <img
+              className="project-image"
+              src={process.env.PUBLIC_URL + props.image}
+              alt="img placeholder"
+            />
+          </a>
+        ) : (
+          <a href={props.github} target="_blank" rel="noreferrer">
+            <img
+              className="project-image"
+              src={process.env.PUBLIC_URL + props.image}
+              alt="img placeholder"
+            />
+          </a>
+        )}
       </div>
       <div className="card-flex-content">
         <h3>{props.name}</h3>
-        <p>cd ..</p>
+        <p>{props.description}</p>
         <div className="icon-holder">
           <a
             href={props.github}
@@ -21,7 +37,11 @@ function Card(props) {
             rel="noreferrer"
             className="card-github"
           >
-            <FontAwesomeIcon icon={faGithub} />
+            <FontAwesomeIcon
+              icon={faGithub}
+              size="2x"
+              title="Repository Link"
+            />
           </a>
 
           {isDeployed ? (
@@ -31,7 +51,11 @@ function Card(props) {
               rel="noreferrer"
               className="card-deployment"
             >
-              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+              <FontAwesomeIcon
+                icon={faArrowUpRightFromSquare}
+                size="2x"
+                title="Deployed Link"
+              />
             </a>
           ) : (
             ""

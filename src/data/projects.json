@@ -44,10 +44,5 @@
     "description": "Manage your employee database with this CLI.",
     "github": "https://github.com/ViennaBorowska/Employee-Tracker-CMS",
     "tech": "Node.js, MySQL, JavaScript"
-  },
-  {
-    "cvimg": "/images/cv-preview.jpg",
-    "profilepic": "/images/profile.jpg",
-    "cvpdf": "/images/VB-Dev-CV-2022.pdf"
   }
 ]

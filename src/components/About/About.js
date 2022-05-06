@@ -16,7 +16,11 @@ export default function About() {
     <section className="about-container">
       <div className="about-holder">
         <div className="about-top">
-          <img src={profilePic} alt="George Melies moon rocket"></img>
+          <img
+            className="profile-picture"
+            src={profilePic}
+            alt="George Melies moon rocket"
+          ></img>
 
           <p className="about-me">
             Hi there, I'm a junior fullstack developer based in Manchester, NW
