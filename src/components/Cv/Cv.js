@@ -10,7 +10,7 @@ function Cv() {
       <div className="cv-container">
         <h2 className="cv-title">Preview (Page 1/3)</h2>
         <a href={CvURL} target="_blank" rel="noreferrer">
-          <img className="cv-preview" src={CvImg}></img>
+          <img className="cv-preview" alt="cv page 1 preview" src={CvImg}></img>
         </a>
         <p className="download-cv">
           <a href={CvURL} target="_blank" rel="noreferrer">

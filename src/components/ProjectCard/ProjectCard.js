@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./ProjectCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -14,8 +13,7 @@ function Card(props) {
       </div>
       <div className="card-flex-content">
         <h3>{props.name}</h3>
-        <p>cd ..
-        </p>
+        <p>cd ..</p>
         <div className="icon-holder">
           <a
             href={props.github}
