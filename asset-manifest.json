@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ViennaBorowska/VB-Portfolio/static/css/main.5e86d86e.css",
-    "main.js": "/ViennaBorowska/VB-Portfolio/static/js/main.eb6c0bc9.js",
-    "static/media/header.gif": "/ViennaBorowska/VB-Portfolio/static/media/header.c0708f41c32fca85dcd8.gif",
-    "static/media/cv-preview.jpg": "/ViennaBorowska/VB-Portfolio/static/media/cv-preview.5906bd7243aa3d01b39e.jpg",
-    "static/media/profile.jpg": "/ViennaBorowska/VB-Portfolio/static/media/profile.f6e5fed23ef562a523fd.jpg",
-    "static/media/VB-Dev-CV-2022.pdf": "/ViennaBorowska/VB-Portfolio/static/media/VB-Dev-CV-2022.c378de8496d60ddd333f.pdf",
-    "index.html": "/ViennaBorowska/VB-Portfolio/index.html",
-    "main.5e86d86e.css.map": "/ViennaBorowska/VB-Portfolio/static/css/main.5e86d86e.css.map",
-    "main.eb6c0bc9.js.map": "/ViennaBorowska/VB-Portfolio/static/js/main.eb6c0bc9.js.map"
+    "main.css": "/VB-Portfolio/static/css/main.12264b76.css",
+    "main.js": "/VB-Portfolio/static/js/main.c71eb323.js",
+    "static/media/header.gif": "/VB-Portfolio/static/media/header.c0708f41c32fca85dcd8.gif",
+    "static/media/cv-preview.jpg": "/VB-Portfolio/static/media/cv-preview.5906bd7243aa3d01b39e.jpg",
+    "static/media/profile.jpg": "/VB-Portfolio/static/media/profile.f6e5fed23ef562a523fd.jpg",
+    "static/media/VB-Dev-CV-2022.pdf": "/VB-Portfolio/static/media/VB-Dev-CV-2022.c378de8496d60ddd333f.pdf",
+    "index.html": "/VB-Portfolio/index.html",
+    "main.12264b76.css.map": "/VB-Portfolio/static/css/main.12264b76.css.map",
+    "main.c71eb323.js.map": "/VB-Portfolio/static/js/main.c71eb323.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e86d86e.css",
-    "static/js/main.eb6c0bc9.js"
+    "static/css/main.12264b76.css",
+    "static/js/main.c71eb323.js"
   ]
 }
