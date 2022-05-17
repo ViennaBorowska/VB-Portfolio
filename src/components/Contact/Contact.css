@@ -4,14 +4,21 @@
   justify-content: center;
   flex-direction: column;
   background-color: var(--my-black);
+  align-items: center;
 }
 
 .form-header {
   color: black;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   padding: 1.5em 2em;
+  text-align: center;
+}
+
+.email-link {
+  color: var(--navlink-active);
+  font-size: xx-large;
 }
 
 .contact-form {

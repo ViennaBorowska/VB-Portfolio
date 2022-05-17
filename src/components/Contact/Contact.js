@@ -41,7 +41,17 @@ function Contact() {
   return (
     <section className="form-container">
       <section className="form-header">
-        <h1>Send Me A Message</h1>
+        <h1>
+          Get In Touch
+          <a
+            className="email-link"
+            href="mailto:viennabdev@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>viennabdev@gmail.com</h2>
+          </a>
+        </h1>
       </section>
       <form
         className="contact-form"
