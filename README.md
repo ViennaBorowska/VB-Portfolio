@@ -1,6 +1,8 @@
 # VB-Portfolio
 Vienna Borowska - University of Manchester Coding Bootcamp - vienna.borowska@hotmail.com
 
+<img src="public/demo.jpg"> 
+
 A fullstack developer portfolio created using React.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -8,20 +10,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## DEPLOYED SITE
 https://viennaborowska.github.io/VB-Portfolio/
 
-LANGUAGE
+## LANGUAGE
 Javascript - CSS - HTML
 
-TOOLS
+## TOOLS
 React - FontAwesome
 
-DESCRIPTION
+## DESCRIPTION
 This is a project to build a modern, responsive portfolio page showcasing my work as a Junior Full-Stack Developer using the latest tools and technologies. 
 
-FILES
-README.md - contact information, file information
-index.html - HTML code
-assets
-styles = CSS stylesheet
-script.js = JavaScript file
-images = all images linked in code
-VB-Dev-Resume.pdf - CV file
+## Questions
+If you have any questions about this projects, please contact me directly at viennabdev@gmail.com. You can view more of my projects at https://github.com/ViennaBorowska.
