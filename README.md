@@ -4,7 +4,7 @@ A fullstack developer portfolio created using React.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This portfolio is published to GitHub Pages [Here](https://viennaborowska.github.io/VB-Portfolio/)
+This portfolio is published to GitHub Pages [here](https://viennaborowska.github.io/VB-Portfolio/)
 
 ## Available Scripts
 
