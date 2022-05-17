@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/VB-Portfolio/static/css/main.12264b76.css",
-    "main.js": "/VB-Portfolio/static/js/main.c71eb323.js",
+    "main.css": "/VB-Portfolio/static/css/main.ab1cfc60.css",
+    "main.js": "/VB-Portfolio/static/js/main.2b5792c8.js",
     "static/media/header.gif": "/VB-Portfolio/static/media/header.c0708f41c32fca85dcd8.gif",
     "static/media/cv-preview.jpg": "/VB-Portfolio/static/media/cv-preview.5906bd7243aa3d01b39e.jpg",
     "static/media/profile.jpg": "/VB-Portfolio/static/media/profile.f6e5fed23ef562a523fd.jpg",
     "static/media/VB-Dev-CV-2022.pdf": "/VB-Portfolio/static/media/VB-Dev-CV-2022.c378de8496d60ddd333f.pdf",
     "index.html": "/VB-Portfolio/index.html",
-    "main.12264b76.css.map": "/VB-Portfolio/static/css/main.12264b76.css.map",
-    "main.c71eb323.js.map": "/VB-Portfolio/static/js/main.c71eb323.js.map"
+    "main.ab1cfc60.css.map": "/VB-Portfolio/static/css/main.ab1cfc60.css.map",
+    "main.2b5792c8.js.map": "/VB-Portfolio/static/js/main.2b5792c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.12264b76.css",
-    "static/js/main.c71eb323.js"
+    "static/css/main.ab1cfc60.css",
+    "static/js/main.2b5792c8.js"
   ]
 }
