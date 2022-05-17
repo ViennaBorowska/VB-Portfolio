@@ -1,7 +1,7 @@
 # VB-Portfolio
 Vienna Borowska - University of Manchester Coding Bootcamp - vienna.borowska@hotmail.com
 
-<img src="public/demo.jpg"> 
+<img src="public/images/demo.jpg"> 
 
 A fullstack developer portfolio created using React.
 
