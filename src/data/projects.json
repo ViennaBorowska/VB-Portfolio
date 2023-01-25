@@ -4,7 +4,7 @@
     "image": "/images/babylon.gif",
     "description": "An influencer-led e-commerce site, connecting people with a passion for fashion.",
     "github": "https://github.com/ViennaBorowska/eBabylon",
-    "deployment": "https://ebabylon.herokuapp.com/",
+    "deployment": "https://ebabylon2022vb.herokuapp.com/",
     "tech": "Javascript, Reat.js, Stripe, Node.js, Apollo, MongoDB"
   },
   {
