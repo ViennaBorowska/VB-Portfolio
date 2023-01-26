@@ -1,14 +1,14 @@
 import React from "react";
 import "./Cv.css";
-import CvURL from "./VB-Dev-CV-2022.pdf";
-import CvImg from "./cv-preview.jpg";
+import CvURL from "./VB-CV-23.pdf";
+import CvImg from "./CV-preview2.JPG";
 import Skills from "../../data/skills.json";
 
 function Cv() {
   return (
     <section className="resume-wrapper">
       <div className="cv-container">
-        <h2 className="cv-title">Preview (Page 1/3)</h2>
+        <h2 className="cv-title">Preview (Page 1/2)</h2>
         <a href={CvURL} target="_blank" rel="noreferrer">
           <img className="cv-preview" alt="cv page 1 preview" src={CvImg}></img>
         </a>
