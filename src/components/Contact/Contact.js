@@ -8,6 +8,7 @@ function Contact() {
 
   const [errorAlert, setErrorAlert] = useState("");
 
+  // Form Validations
   function handleBlur(e) {
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
@@ -31,6 +32,28 @@ function Contact() {
       setFormState({ ...formState, [e.target.name]: e.target.value });
     }
   }
+
+  // let contactFormFields = {};
+
+  // document.addEventListener =
+  //   ("DOMContentLoaded",
+  //   function () {
+  //     contactFormFields.name = document.getElementById("name");
+  //     contactFormFields.email = document.getElementById("email");
+  //     contactFormFields.message = document.getElementById("message");
+  //   });
+  // function sendEmail() {
+  //   contactFormFields
+  //     .send({
+  //       SecureToken: "<your generated token>",
+  //       To: "viennabdev@gmail.com",
+  //       From: contactFormFields.email,
+  //       Subject: `Message from ` + contactFormFields.name,
+  //       Body: contactFormFields.message,
+  //     })
+  //     .then((message) => alert("mail sent successfully"));
+  // }
+  // sendEmail();
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -56,6 +79,7 @@ function Contact() {
       <form
         className="contact-form"
         action="mailto:viennabdev@gmail.com"
+        encType="text/plain"
         method="post"
       >
         <label name="name" className="input-title">
@@ -92,9 +116,12 @@ function Contact() {
           onBlur={handleBlur}
         ></textarea>
         {errorAlert && <p className="form-message">{errorAlert}</p>}
-        <button type="submit" className="contact-btn" onClick={handleSubmit}>
-          SEND
-        </button>
+        <input
+          type="submit"
+          className="contact-btn"
+          name="submit"
+          value="SEND"
+        ></input>
       </form>
     </section>
   );
