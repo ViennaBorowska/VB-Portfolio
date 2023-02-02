@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import CvURL from "./VB-CV-23.pdf";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -20,9 +21,11 @@ export default function Navbar() {
           <NavLink to="/contact" activeclassname="active">
             Contact
           </NavLink>
-          <NavLink to="/cv" activeclassname="active">
-            CV
-          </NavLink>
+          <button className="cv-btn">
+            <a href={CvURL} target="_blank" rel="noreferrer">
+              CV
+            </a>
+          </button>
         </div>
       </div>
     </nav>

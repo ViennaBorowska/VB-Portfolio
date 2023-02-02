@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar/Navbar";
 import Portfolio from "./components/Portfolio/Portfolio";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
-import Cv from "./components/Cv/Cv";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
           <Route path="/" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/cv" element={<Cv />} />
         </Routes>
         <Footer />
       </Router>

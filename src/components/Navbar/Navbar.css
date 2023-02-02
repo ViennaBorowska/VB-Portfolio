@@ -43,7 +43,25 @@ h1 {
   display: flex;
   gap: 50px;
   text-align: center;
-  font-size: 3vw;
+  font-size: 2vw;
+}
+
+.cv-btn {
+  background-color: black;
+  color: var(--navlink-active);
+  border: 1px solid var(--navlink-active);
+  border-radius: 8px;
+}
+
+.cv-btn:hover {
+  background-color: var(--navlink-active);
+}
+.cv-btn > a {
+  display: flex;
+  text-decoration: none;
+  width: 100px;
+  justify-content: center;
+  color: var(--light);
 }
 
 .nav-container > a {
