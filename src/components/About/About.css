@@ -1,9 +1,9 @@
 :root {
   /* Colour Variables */
-  --dark: #290458;
-  --light: rgb(211, 209, 209);
-  --navlink-active: #910e7b;
-  --text-hover: #a1156c;
+  --dark: #081c15;
+  --light: #52b788;
+  --navlink-active: #2d6a4f;
+  --text-hover: #74c69d;
   --my-black: #000000;
 }
 
@@ -59,10 +59,10 @@
   font-size: 1.2vw;
   display: flex;
   gap: 10px;
-  color: var(--navlink-active);
+  color: #2b9348;
 }
 .key-skills-title {
-  color: var(--navlink-active);
+  color: #2b9348;
   font-size: 2vw;
   width: 80%;
   text-align: center;

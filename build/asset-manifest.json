@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/VB-Portfolio/static/css/main.239c12ef.css",
+    "main.js": "/VB-Portfolio/static/js/main.c510ce28.js",
+    "static/media/header.gif": "/VB-Portfolio/static/media/header.c0708f41c32fca85dcd8.gif",
+    "static/media/VB-CV-23.pdf": "/VB-Portfolio/static/media/VB-CV-23.4d038d4dae7f04322420.pdf",
+    "static/media/profile.jpg": "/VB-Portfolio/static/media/profile.f6e5fed23ef562a523fd.jpg",
+    "index.html": "/VB-Portfolio/index.html",
+    "main.239c12ef.css.map": "/VB-Portfolio/static/css/main.239c12ef.css.map",
+    "main.c510ce28.js.map": "/VB-Portfolio/static/js/main.c510ce28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.239c12ef.css",
+    "static/js/main.c510ce28.js"
+  ]
+}

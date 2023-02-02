@@ -1,9 +1,9 @@
 :root {
   /* Colour Variables */
-  --dark: #290458;
-  --light: rgb(211, 209, 209);
-  --navlink-active: #910e7b;
-  --text-hover: #a1156c;
+  --dark: #081c15;
+  --light: #52b788;
+  --navlink-active: #2d6a4f;
+  --text-hover: #74c69d;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@700&display=swap");
