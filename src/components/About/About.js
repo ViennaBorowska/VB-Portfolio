@@ -36,28 +36,30 @@ export default function About() {
             accessible, responsive designs.
           </p>
         </div>
-        <h2 className="key-skills-title">Key Skills</h2>
-        <div className="key-skills-list">
-          <p>
-            <FontAwesomeIcon icon={faHtml5} />
-            HTML5
-          </p>
-          <p className="key-skills">
-            <FontAwesomeIcon icon={faCss3} />
-            CSS
-          </p>
-          <p className="key-skills">
-            <FontAwesomeIcon icon={faJsSquare} />
-            Javascript
-          </p>
-          <p className="key-skills">
-            <FontAwesomeIcon icon={faNodeJs} />
-            Node
-          </p>
-          <p className="key-skills">
-            <FontAwesomeIcon icon={faReact} />
-            React
-          </p>
+        <div className="about-bottom">
+          <h2 className="key-skills-title">Key Skills</h2>
+          <div className="key-skills-list">
+            <p>
+              <FontAwesomeIcon icon={faHtml5} />
+              HTML5
+            </p>
+            <p className="key-skills">
+              <FontAwesomeIcon icon={faCss3} />
+              CSS
+            </p>
+            <p className="key-skills">
+              <FontAwesomeIcon icon={faJsSquare} />
+              Javascript
+            </p>
+            <p className="key-skills">
+              <FontAwesomeIcon icon={faNodeJs} />
+              Node
+            </p>
+            <p className="key-skills">
+              <FontAwesomeIcon icon={faReact} />
+              React
+            </p>
+          </div>
         </div>
       </div>
     </section>
