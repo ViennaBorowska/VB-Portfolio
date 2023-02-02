@@ -47,10 +47,14 @@ h1 {
 }
 
 .cv-btn {
+  display: flex;
   background-color: black;
   color: var(--navlink-active);
   border: 1px solid var(--navlink-active);
   border-radius: 8px;
+  width: 4.5rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .cv-btn:hover {
@@ -59,7 +63,7 @@ h1 {
 .cv-btn > a {
   display: flex;
   text-decoration: none;
-  width: 100px;
+
   justify-content: center;
   color: var(--light);
 }
@@ -85,5 +89,11 @@ h1 {
     flex-direction: column;
     justify-content: center;
     font-size: 4vw;
+  }
+  .cv-btn {
+    font-size: 2.5vw;
+  }
+  .cv-btn > a {
+    font-size: 2.5vw;
   }
 }
