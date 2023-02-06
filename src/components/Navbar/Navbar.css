@@ -32,11 +32,13 @@
 .home-btn {
   color: var(--light);
   background-color: black;
-  font-size: 2vw;
+  font-size: 3vw;
   margin: 0;
   margin-bottom: 10px;
   border: 1px solid var(--light);
   padding: 10px;
+  min-width: 80px;
+  min-height: 80px;
   border-radius: 50%;
 }
 

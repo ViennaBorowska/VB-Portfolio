@@ -18,7 +18,7 @@
     "tech": "Express.js, Node.js, MySQL, Multer, Handlebars"
   },
   {
-    "name": "Find My Football - Group Project",
+    "name": "Find My Football",
     "team": 2,
     "image": "/images/fmf.gif",
     "description": "A one-stop shop for international football league details and stadium locations with directions.",

@@ -3,12 +3,20 @@ import "./ProjectCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 function Card(props) {
   const isDeployed = props.deployment;
+  // const teamMembers = [props.team];
+  // console.log(teamMembers);
   return (
     <article className="card-flex-wrapper">
       <h3 className="project-title">{props.name}</h3>
+      <div className="team-icon-holder">
+        {/* {{props.team}.forEach((member) => (
+          <FontAwesomeIcon icon={faUser} size="2x" title="Team Member" />
+        ))} */}
+      </div>
       <div className="project-card-flex-image">
         {isDeployed ? (
           <a href={props.deployment} target="_blank" rel="noreferrer">
