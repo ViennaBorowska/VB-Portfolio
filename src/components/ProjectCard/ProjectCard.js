@@ -8,6 +8,7 @@ function Card(props) {
   const isDeployed = props.deployment;
   return (
     <article className="card-flex-wrapper">
+      <h3 className="project-title">{props.name}</h3>
       <div className="project-card-flex-image">
         {isDeployed ? (
           <a href={props.deployment} target="_blank" rel="noreferrer">
@@ -28,7 +29,6 @@ function Card(props) {
         )}
       </div>
       <div className="card-flex-content">
-        <h3>{props.name}</h3>
         <p>{props.description}</p>
         <div className="icon-holder">
           <a
