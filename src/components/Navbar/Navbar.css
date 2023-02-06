@@ -29,10 +29,20 @@
   padding: 10px;
 }
 
-h1 {
+.home-btn {
   color: var(--light);
-  font-size: 5vw;
+  background-color: black;
+  font-size: 2vw;
   margin: 0;
+  margin-bottom: 10px;
+  border: 1px solid var(--light);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.home-btn:hover {
+  background-color: var(--navlink-active);
+  cursor: pointer;
 }
 
 .header-title {
@@ -50,7 +60,7 @@ h1 {
   display: flex;
   background-color: black;
   color: var(--navlink-active);
-  border: 1px solid var(--navlink-active);
+  border: 2px solid var(--navlink-active);
   border-radius: 8px;
   width: 4.5rem;
   justify-content: center;
@@ -59,10 +69,12 @@ h1 {
 
 .cv-btn:hover {
   background-color: var(--navlink-active);
+  cursor: pointer;
 }
 .cv-btn > a {
   display: flex;
   text-decoration: none;
+  font-size: 2vw;
 
   justify-content: center;
   color: var(--light);

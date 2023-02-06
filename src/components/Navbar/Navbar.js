@@ -7,12 +7,13 @@ export default function Navbar() {
   return (
     <nav className="header">
       <div className="nav-header-container">
-        <NavLink to="/" className="header-title" activeclassname="active">
-          <h1>Vienna B</h1>
-        </NavLink>
-
+        <div className="home-btn-container">
+          <NavLink to="/" className="header-title" activeclassname="active">
+            <button className="home-btn">V</button>
+          </NavLink>
+        </div>
         <div className="nav-container">
-          <NavLink to="/" activeclassname="active">
+          <NavLink to="/about" activeclassname="active">
             About
           </NavLink>
           <NavLink to="/portfolio" activeclassname="active">
